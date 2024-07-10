@@ -2,6 +2,7 @@
 name: build-android-beta
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - build-beta-[0-9]+
